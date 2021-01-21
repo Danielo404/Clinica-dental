@@ -3,11 +3,8 @@
     margin: 0;
 }
 .contenedor {
-    width: 95%;
+    width: 100%;
     margin: auto;
-}
-.contenedor p {
-    margin-bottom: 35px;
 }
 header nav {
     background: #55efc4;
@@ -22,16 +19,16 @@ header nav ul{
 }
 header nav ul li {
     float: left;
-    margin-left: 2%;
+    margin-left: 50px;
 }
 header nav ul li a{
-    margin-top: 50px;
+    margin-top: 60px;
     display: block;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 40px;
-    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
     font-family:fantasy;
 }
 header nav ul li a:hover {
@@ -44,16 +41,18 @@ header nav ul li a:hover {
     left: 0;
     width: 100%;
     box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+    border-radius: 0px;
+    margin-top: 0;
 }
-.menu-fixed{
-    padding: 15px 20px;
-}
+
 .imginicio{
     margin-top: 0;
 }
 .imginicio:hover{
     background: none;
 }
+
+
 p{
-    font-size: 50px;
+    font-size: 30px;
 }
