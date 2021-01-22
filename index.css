@@ -2,57 +2,77 @@
     padding: 0;
     margin: 0;
 }
-.contenedor {
+body{
+    background-color: rgb(174, 245, 217);
+    background-image: url('img/fondo.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenedor-main{
     width: 100%;
-    margin: auto;
-}
-header nav {
-    background: #55efc4;
-    margin-bottom:10px;
-    -webkit-transition: all ease .10s;
-    -o-transition: all ease .10s;
-    transition: all ease .10s;
-}
-header nav ul{
-    list-style: none;
+    max-width: 2000;
+    margin: 0 auto;
     overflow: hidden;
 }
-header nav ul li {
-    float: left;
-    margin-left: 50px;
+.contenedor-body{
+    padding: 15px;
 }
-header nav ul li a{
-    margin-top: 60px;
+.contenedor-footer{
+    background-image: url('img/footer.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header nav {
+    background: linear-gradient(50deg, #81ecec, #00cec9);
+    margin-bottom:10px;
+    overflow: hidden;
+    -webkit-transition: all ease .20s;
+    -o-transition: all ease .20s;
+    transition: all ease .20s;
+}
+nav > a{
+    padding: 2% 1%;
     display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
+    float: right;
     text-align: center;
-    font-size: 25px;
-    font-family:fantasy;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: fantasy;
+    color: white;
 }
-header nav ul li a:hover {
-    background: #81ecec;
+nav > a:hover
+{
+    background-color: #81ecec;
+    color: #00cec9;
 }
 .menu-fixed{
     position: fixed;
-    z-index: 1000;
     top: 0;
-    left: 0;
     width: 100%;
-    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
-    border-radius: 0px;
-    margin-top: 0;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);   
+}
+.menu-fixed a{
+    font-size: 1.2em;
+    padding: 1% 2%;
+
+}
+.menu-fixed figure img{
+    margin-left: 4%;
+    width: 10%;
+    height: 10%;
 }
 
-.imginicio{
-    margin-top: 0;
+.imginicio img{  
+    margin-left: 4%;
+    padding: 0;
+    width: 15%;
+    height: 15%;
 }
-.imginicio:hover{
-    background: none;
+.paddin{
+    padding-top: 7%;
 }
-
 
 p{
-    font-size: 30px;
+    font-size: 3em;
 }
