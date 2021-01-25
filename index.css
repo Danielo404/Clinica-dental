@@ -19,10 +19,6 @@ body{
     padding: 15px;
 }
 
-.img-inicio{
-    display: block;
-    margin: auto;
-}
 .contenedor-footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,6 +29,7 @@ body{
     position: absolute;
     width: 100%;
     padding: 10px;
+    bottom: 0;
 }
 header nav {
     background: linear-gradient(50deg, #81ecec, #00cec9);
@@ -44,16 +41,28 @@ header nav {
 }
 
 .texto-imagen{
+    background-image: url('img/inicio.png');
+    background-repeat: no-repeat;
     background-color: #81ecec;
     border-radius: 15px;
-    padding: 25px;
-    width: 25%;
-    float: right;
+    margin-left: 15%;
+    width: 70%;
+    float: left;
     position: relative;
-    margin-right: 300px;
+    box-sizing: border-box;
 }
 .texto-imagen p{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 2%;
     font-size: 1.5em;
+    float: right;
+    text-align: justify;
+}
+.parrafoInicio{
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30%;
 }
 
 nav > a{
