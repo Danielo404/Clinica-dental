@@ -5,7 +5,8 @@
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-    margin: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
   }
   
   /* Hide the images by default */
