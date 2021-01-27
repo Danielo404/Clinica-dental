@@ -87,21 +87,16 @@ nav > a:hover
 }
 .menu-fixed a{
     font-size: 1.2em;
-    padding: 1% 2%;
+    padding: 1.4% 2.5%;
 
 }
 .menu-fixed figure img{
-    margin-left: 4%;
     width: 10%;
     height: 10%;
 }
-
-.imginicio img{  
-    margin-left: 4%;
-    padding: 0;
-    width: 10%;
-    height: 10%;
-    size: 100% 100%;
+.imginicio img{ 
+    width: 17%;
+    height: 17%;
 }
 .cita p{
     text-align: center;
