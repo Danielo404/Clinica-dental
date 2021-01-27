@@ -9,11 +9,11 @@ body {
 .contenedor-main{
     width: 100%;
     max-width: 2000;
-    margin: 0 auto;
     overflow: hidden;
 }
 .contenedor-body{
-    padding: 15px;
+    display: flex;
+    padding-top: 30px;
 }
 
 .contenedor-footer{
@@ -28,7 +28,6 @@ body {
 }
 header nav {
     background: linear-gradient(90deg, #81ecec, #00cec9);
-    margin-bottom:5px;
     overflow: hidden;
     -webkit-transition: all ease .20s;
     -o-transition: all ease .20s;
@@ -47,8 +46,8 @@ header nav {
     padding-bottom: 15%;
     padding-left: 35%;
     padding-right: 10%;
-    
 }
+
 .texto-imagen{
     float: right;
     align-content: center;
@@ -57,11 +56,13 @@ header nav {
     padding: 5%;
 
 }
+
 .parrafoInicio{
     box-sizing: border-box;
     position: relative;
     margin-top: 20px;
     font-size: 30px;
+    z-index: 0;
 }
 
 nav > a{
