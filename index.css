@@ -23,18 +23,17 @@ body {
     background: linear-gradient(50deg, #81ecec, #00cec9);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    position: flex;
+    position: relative;
     width: 100%;
-    padding: 10px;
-    bottom: 0;
 }
 header nav {
-    background: linear-gradient(50deg, #81ecec, #00cec9);
+    background: linear-gradient(90deg, #81ecec, #00cec9);
     margin-bottom:5px;
     overflow: hidden;
     -webkit-transition: all ease .20s;
     -o-transition: all ease .20s;
     transition: all ease .20s;
+    z-index: 1;
 }
 
 .imagen{
@@ -62,6 +61,7 @@ header nav {
     box-sizing: border-box;
     position: relative;
     margin-top: 20px;
+    font-size: 30px;
 }
 
 nav > a{
@@ -99,8 +99,9 @@ nav > a:hover
 .imginicio img{  
     margin-left: 4%;
     padding: 0;
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
+    size: 100% 100%;
 }
 .cita p{
     text-align: center;
