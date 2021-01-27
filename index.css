@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-image: url('img/fondo.png');
@@ -40,6 +40,7 @@ header nav {
 .imagen{
     background-image: url('img/inicio.png');
     background-repeat: no-repeat;
+    background-size: 100%;
     margin-left: 16%;
     width: 70%;
     box-sizing: border-box;
@@ -101,11 +102,6 @@ nav > a:hover
     width: 15%;
     height: 15%;
 }
-.paddin{
-    padding-top: 7%;
+.cita p{
+    text-align: center;
 }
-
-p{
-    font-size: 3em;
-}
-
