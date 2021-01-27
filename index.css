@@ -23,7 +23,7 @@ body {
     background: linear-gradient(50deg, #81ecec, #00cec9);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    position: fixed;
+    position: flex;
     width: 100%;
     padding: 10px;
     bottom: 0;
@@ -61,7 +61,7 @@ header nav {
 .parrafoInicio{
     box-sizing: border-box;
     position: relative;
-    margin-top: 30%;
+    margin-top: 20px;
 }
 
 nav > a{
