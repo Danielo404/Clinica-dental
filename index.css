@@ -43,21 +43,22 @@ header nav {
 .imagen{
     background-image: url('img/inicio.png');
     background-repeat: no-repeat;
-    background-color: #81ecec;
-    border-radius: 15px;
-    margin-left: 15%;
+    margin-left: 16%;
     width: 70%;
-    float: left;
-    position: relative;
     box-sizing: border-box;
     padding-top: 15%;
     padding-bottom: 15%;
     padding-left: 35%;
     padding-right: 10%;
+    
 }
 .texto-imagen{
     float: right;
     align-content: center;
+    background-color: rgba(129,236 ,236 , .5);
+    border-radius: 15px;
+    padding: 5%;
+
 }
 .parrafoInicio{
     box-sizing: border-box;
