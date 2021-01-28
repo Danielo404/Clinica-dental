@@ -1,0 +1,28 @@
+.imagen{
+    background-image: url('../img/inicio.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 16%;
+    width: 70%;
+    box-sizing: border-box;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 35%;
+    padding-right: 10%;
+}
+
+.texto-imagen{
+    float: right;
+    align-content: center;
+    background-color: rgba(129,236 ,236 , .5);
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.parrafoInicio{
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 20px;
+    font-size: 30px;
+    z-index: 0;
+}
