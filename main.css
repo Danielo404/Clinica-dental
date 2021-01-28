@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     padding: 0;
     margin: 0;
@@ -9,7 +12,6 @@ body {
 .contenedor-main{
     width: 100%;
     max-width: 2000;
-    overflow: hidden;
 }
 
 header nav {
@@ -22,8 +24,7 @@ header nav {
 }
 
 .contenedor-body{
-    display: flex;
-    padding-top: 30px;
+    padding: 20px;
 }
 
 .contenedor-footer{
