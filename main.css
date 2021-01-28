@@ -1,20 +1,23 @@
 * {
     box-sizing: border-box;
-  }
+}
+
 body {
     padding: 0;
     margin: 0;
+    font-family:  'Arial Narrow', Arial, sans-serif;
     background-image: url('img/fondo.png');
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .contenedor-main{
     width: 100%;
-    max-width: 2000;
+    max-width: 1000;
 }
 
-header nav {
+.menu {
     background: linear-gradient(90deg, #81ecec, #00cec9);
     overflow: hidden;
     -webkit-transition: all ease .20s;
@@ -23,52 +26,56 @@ header nav {
     z-index: 1;
 }
 
-.contenedor-body{
-    padding: 20px;
-}
-
-.contenedor-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    background: linear-gradient(50deg, #81ecec, #00cec9);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-    width: 100%;
-}
-
-nav > a{
+.menu > a{
     padding: 2% 1%;
-    display: block;
     float: right;
-    text-align: center;
     text-decoration: none;
     font-size: 1.5em;
     font-family: fantasy;
     color: white;
 }
-nav > a:hover
+
+.menu > a:hover
 {
     background-color: #81ecec;
     color: #00cec9;
 }
+
 .menu-fixed{
     position: fixed;
     top: 0;
     width: 100%;
+    
     box-shadow: 0px 4px 3px rgba(0,0,0,.5);   
 }
+
 .menu-fixed a{
     font-size: 1.2em;
     padding: 1.4% 2.5%;
-
 }
+
+.imginicio img{
+    overflow: hidden;
+    width: 17%;
+    height: 17%;
+}
+
 .menu-fixed figure img{
     width: 10%;
     height: 10%;
 }
-.imginicio img{ 
-    width: 17%;
-    height: 17%;
+
+.contenedor-body{
+    padding: 25px;
+}
+
+.contenedor-footer footer{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: linear-gradient(50deg, #81ecec, #00cec9);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
 }
