@@ -1,0 +1,21 @@
+.malla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.persona{
+    margin: 75px;
+}
+
+.persona img{
+    display: block;
+    margin: auto;
+}
+.persona strong{
+    text-align: center;
+}
+
+.persona p{
+    text-align: center;
+}
