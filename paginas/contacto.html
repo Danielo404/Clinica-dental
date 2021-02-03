@@ -27,7 +27,30 @@
     </div>
 
     <div class="contenedor-body">
+      <form action="send.php" method="post"" name="contacto" id ="contacto" >
 
+        <p>Nombre</p>
+        <input name="nombre" type="text" id="nombre completo"size="30" maxlength="100">
+        <br>
+        <p>Email</p>
+        <input name="email" type="text" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" size="25" maxlength="100" >
+        <br>
+        <p>Teléfono</p>
+         <input name="tlf" type="text" onBlur="MM_validateForm('tlf','','R');return document.MM_returnValue" size="20" maxlength="60">
+        <br>
+        <br>
+      
+        
+        Danos tu opinion
+        <br>
+        <textarea cols="50" rows="5" name="opinion"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar formulario">
+        <input type="Reset" value="Borrar datos">
+        
+        </form>
+        </table>
     </div>
 
     <div class="contenedor-footer">
