@@ -17,6 +17,10 @@ body {
     max-width: 1000;
 }
 
+.contenedor-nav{
+    height: 122px;
+}
+
 .menu {
     background: linear-gradient(90deg, #81ecec, #00cec9);
     overflow: hidden;
@@ -67,6 +71,7 @@ body {
 
 .contenedor-body{
     padding: 25px;
+    display: block;
 }
 
 .contenedor-footer footer{
