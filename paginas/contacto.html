@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="../main.js"></script>
     <title>Contacto</title>
 </head>
 <body>
+
   <div class="contenedor-main">
     <div class="contenedor-nav">
       <header>
@@ -25,59 +27,32 @@
         </nav>
       </header>
     </div>
-
+    <h3>Si así lo desea, puedes mandarnos un mensaje con tu teléfono y la consulta y contactaremos contigo lo más rápido posible</h3>
     <div class="contenedor-body">
-      <form name="frmContacto" method="post" action="../send.php">
-        <table width="500px">
-        <tr>
-        <td>
-        <label for="first_name">Nombre: *</label>
-        </td>
-        <td>
-        <input type="text" name="first_name" maxlength="50" size="25">
-        </td>
-        </tr>
-        <tr>
-        <td valign="top"">
-        <label for="last_name">Apellido: *</label>
-        </td>
-        <td>
-        <input type="text" name="last_name" maxlength="50" size="25">
-        </td>
-        </tr>
-        <tr>
-        <td>
-        <label for="email">Dirección de E-mail: *</label>
-        </td>
-        <td>
-        <input type="text" name="email" maxlength="80" size="35">
-        </td>
-        </tr>
-        <tr>
-        <td>
-        <label for="telephone">Número de teléfono:</label>
-        </td>
-        <td>
-        <input type="text" name="telephone" maxlength="25" size="15">
-        </td>
-        </tr>
-        <tr>
-        <td>
-        <label for="comments">Comentarios: *</label>
-        </td>
-        <td>
-        <textarea name="comments" maxlength="500" cols="30" rows="5"></textarea>
-        </td>
-        </tr>
-        <tr>
-        <td colspan="2" style="text-align:right">
-        <input type="submit" value="Enviar">
-        </td>
-        </tr>
-        </table>
-        </form>
-        
-        
+      <div class="formulario">
+      <form action="">
+        <p>Nombre completo</p>
+        <input type="text" class="field"> <br/>
+      
+        <p>Correo electrónico</p>
+        <input type="text" class="field"> <br/>
+      
+        <p>Teléfono</p>
+        <input type="text" class="field"> <br/>
+      
+        <p>Mensaje:</p>
+        <textarea class="field"></textarea> <br/>
+      
+        <p class="center-content">
+          <input type="submit" class="btn btn-green" value="Enviar Datos">
+        </p>
+      </div>
+      </form>
+
+      <figure class="map">
+        <h3>Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475.5374549029813!2d-6.109771873299328!3d36.698010931352826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dc74839e82d01%3A0x92c2f8c5c50569ce!2sClinica%20Dental%20Dra.%20Maria%20Angeles%20Lazcano!5e0!3m2!1ses!2ses!4v1611318262264!5m2!1ses!2ses" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </figure>
     </div>
 
     <div class="contenedor-footer">

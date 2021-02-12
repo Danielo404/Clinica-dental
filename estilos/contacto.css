@@ -1,0 +1,51 @@
+.contenedor-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3{
+    text-align: center;
+}
+
+.map {
+    margin: auto;
+}
+
+form{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding-left: 7px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-style: solid;
+    border-color: #00cec9;
+    border-radius: 15px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+    
+}
+
+form p {
+    font-size: 20px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 15px;
+}
+
+.field:focus{
+    border-color: #00cec9;
+}
+
+.center-content{
+    text-align: center;
+}

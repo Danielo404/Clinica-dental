@@ -34,5 +34,3 @@ $headers = 'From: '.$email_from."\r\n".
 echo "¡El formulario se ha enviado con éxito!";
 }
 ?>
-
-Foto: © Everypixel
