@@ -71,7 +71,14 @@ body {
 
 .contenedor-body{
     padding: 25px;
+    padding-bottom: 10%;
     display: block;
+}
+
+.contenedor-footer{
+    bottom: 0;
+    position:fixed;
+    width: 100%;
 }
 
 .contenedor-footer footer{
@@ -82,5 +89,4 @@ body {
     background: linear-gradient(50deg, #81ecec, #00cec9);
     background-repeat: no-repeat;
     position: relative;
-    width: 100%;
 }
