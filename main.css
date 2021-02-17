@@ -83,8 +83,19 @@ body {
 
 .contenedor-footer{
     bottom: 0;
-    position:fixed;
     width: auto;
+}
+
+.rSociales{
+    text-align: center;
+}
+
+.cita {
+    text-align: center;
+}
+
+.ubicacion {
+    text-align: center;
 }
 
 .contenedor-footer footer{
