@@ -22,6 +22,7 @@
     font-weight: 700;
 }
 
+
 hr {
     margin: 0 auto;
     margin-top: 40px;
@@ -30,6 +31,7 @@ hr {
     height: 2px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
 }
+
 h1{
     text-align: center;
     font-family: fantasy;
@@ -38,13 +40,24 @@ h1{
 }
 .procovid{
     background-color: #5fc1c4;
+    display: block;
+    border-radius: 15px;
 }
-table{
-    align-items: center;
+.covi{
+    text-align: center;
 }
-caption img{
-    align-content: center;
+.coviimg{
+    width: 15%;
+    height: 15%;
+    margin: 2%;
 }
-.parrafoInicio{
-    
+
+.tablacovi{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tablacovi tr td p{
+    font-size: 1.5em;
+    padding-left: 8%;
 }
