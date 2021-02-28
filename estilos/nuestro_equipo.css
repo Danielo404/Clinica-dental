@@ -1,8 +1,20 @@
-.malla{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+@media (min-width: 1px) and (max-width: 1024px){
+    .malla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
+
+@media(min-width: 1025px){
+    .malla{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
 
 .persona{
     margin: 75px;
