@@ -1,20 +1,25 @@
-$(document).ready(function(){
-    var altura = $('.menu').offset().top;
+$(document).ready(main);
 
-    $(window).on('scroll', function(){
+var cont = 1;
 
-        if( $(window).scrollTop() > altura)
+function main() {
+    $('.menu_bar').click(function(){
+        if(cont == 1)
         {
-            $('.menu').addClass('menu-fixed');
-            $('.contenedor-body').addClass('paddin');
-        } 
+            $('nav').animate({
+                left: '0'
+            });
+            cont = 0;
+        }
         else
         {
-            $('.menu').removeClass('menu-fixed');
-            $('.contenedor-body').removeClass('paddin');
+            cont = 1;
+            $('nav').animate({
+                left: '-100%'
+            }); 
         }
     });
-});
+};
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -46,3 +51,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
