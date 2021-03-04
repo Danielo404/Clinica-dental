@@ -1,5 +1,5 @@
   .container {
-    position: none;
+    position: relative;
     width: 85%;
     margin: auto;
   }
@@ -42,7 +42,7 @@
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
-    position: absolute;
+    position: relative;
     top: 0;
   }
   
