@@ -14,10 +14,12 @@ figure{
 
 h3{
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .map {
-    margin-left: 10%;
+    margin-left: 5em;
 }
 
 form{
@@ -26,7 +28,7 @@ form{
     color: #999;
     font-size: 0.8em;
     padding-left: 7px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -57,4 +59,18 @@ form p {
 
 .center-content{
     text-align: center;
+    margin-bottom: 1.2em;
+}
+
+@media screen and (max-width:800px) {
+
+    .map{
+        margin: 15% auto;
+        overflow: hidden;
+    }
+
+    .formulario {
+        margin-bottom: 5em;
+    }
+
 }
