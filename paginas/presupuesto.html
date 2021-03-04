@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../estilos/presupuesto.css">
         <link rel="stylesheet" href="../fonts.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script src="../main.js"></script>
+        <script src="../presupuesto.js"></script>
         <title>Nuestro equipo</title>
     </head>
 
@@ -42,13 +42,13 @@
           <div class="tipo1">
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="obturaciones" value="200">
+              <input type="checkbox" id="obturaciones" value="200" onChange="suma(this)">
               Obturaciones
             </h3>
           </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="endodoncia" value="300">
+              <input  type="checkbox" id="endodoncia" value="300" onChange="suma(this)">
               Tratamiento endodóntico
             </h3>
             </div>
@@ -58,19 +58,19 @@
             
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="blanqueamiento" value="400">
+              <input type="checkbox" id="blanqueamiento" value="400" onChange="suma(this)">
               Blanqueamiento dental
             </h3>
           </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="carillas" value="1500">
+              <input type="checkbox" id="carillas" value="1500" onChange="suma(this)">
               Carillas dentales
             </h3>
             </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="coronas" value="2000">
+              <input type="checkbox" id="coronas" value="2000" onChange="suma(this)">
               Coronas de circonio
             </h3>
             </div>
@@ -81,19 +81,19 @@
             
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="brackets" value="2000">
+              <input type="checkbox" id="brackets" value="2000" onChange="suma(this)">
               Brackets estéticos
             </h3>
           </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="damon" value="2500">
+              <input type="checkbox" id="damon" value="2500" onChange="suma(this)">
               Sistema Damon
             </h3>
             </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="invisalign" value="1900">
+              <input type="checkbox" id="invisalign" value="1900" onChange="suma(this)">
               Invisalign
             </h3>
             </div>
@@ -104,19 +104,19 @@
             
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="implantes" value="1800">
+              <input type="checkbox" id="implantes" value="1800" onChange="suma(this)">
               Implantes dentales
             </h3>
           </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="extraccion" value="250">
+              <input type="checkbox" id="extraccion" value="250" onChange="suma(this)">
               Extracción de cordales
             </h3>
             </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="regeneracion" value="1000">
+              <input type="checkbox" id="regeneracion" value="1000" onChange="suma(this)">
               Regeneración ósea
             </h3>
             </div>
@@ -127,20 +127,20 @@
             
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="pulpotomia" value="200">
+              <input type="checkbox" id="pulpotomia" value="200" onChange="suma(this)">
               Pulpotomía
             </h3>
           </div>
             <div class="consulta">
               <h3>
-              <input type="checkbox" id="mantenedores" value="300">
+              <input type="checkbox" id="mantenedores" value="300" onChange="suma(this)">
               Mantenedores de espacio
             </h3>
             </div>
           </div>
 
           <div class="total">
-            
+            Total: <span id="precio" value="1">0 €</span>
           </div>
         </div>
 
