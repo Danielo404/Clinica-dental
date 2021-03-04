@@ -21,9 +21,11 @@ hr {
     -webkit-text-stroke: 1px black;
     }
 
-.contenedor-body h3{
+.contenedor-body label{
     color: white;
-    font-size: 26px;
+    font-size: 1.6em;
+    font-weight:900;
+    margin-left: 10px;
     text-align: center;
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 0.6px black;
