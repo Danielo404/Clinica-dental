@@ -9,6 +9,7 @@ figure{
     border-color: #00cec9;
     border-style: solid;
     margin: auto;
+    border-radius: 15px;
 }
 
 h3{
