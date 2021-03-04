@@ -1,0 +1,38 @@
+.consulta{
+    border-style: solid;
+    border-color: brown;
+    border-radius: 15px;
+    width: 60%;
+    padding: 15px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tipo1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tipo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tipo3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tipo4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tipo5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
