@@ -1,14 +1,14 @@
 var total = 0;
         
-        function suma(tratamiento){
+        function suma(consulta){
 
-            if (tratamiento.checked) {
+            if (consulta.checked) {
         
-                total += parseInt(tratamiento.value);
+                total += parseInt(consulta.value);
                 document.getElementById("precio").innerHTML = total + " €";
             }else{
 
-                total -= parseInt(tratamiento.value);
+                total -= parseInt(consulta.value);
 
                 if (total >= 0) {
                     document.getElementById("precio").innerHTML = total + " €";
